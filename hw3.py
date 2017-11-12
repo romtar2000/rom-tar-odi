@@ -1,3 +1,4 @@
+print("1st variant")
 word=list(input("Enter word: "))
 if word:
     for i,sym in enumerate(word):
