@@ -53,5 +53,5 @@ with open ("C:/Users/1003746/Desktop/hw4.txt", encoding="utf-8") as f:
    print(value12)
    averagelen = (value1+value2+value3+value4+value5+value6+value7+value8+value9+value10+value11+value12)/12
    print(averagelen)
-   f(close)
+f(close)
    
