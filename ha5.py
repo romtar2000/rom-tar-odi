@@ -14,7 +14,7 @@ with open ("proga.txt", "w", encoding="utf-8") as f:
             u = u+word[item]
         for item in range(len(u)):
             if((item+1)%3) != 0:
-                f.write(u[element])
+                f.write(u[item])
         f.write("\n")
 
     
