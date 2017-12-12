@@ -1,0 +1,28 @@
+print("1st variant")
+with open ("Extinct_languages.tsv", "r", encoding = "utf-8") as f:
+ stroki = f.readlines()
+ for line in stroki:
+  if len(line) >= 35:
+    print(line)
+  cells = line.split("\t")
+  massive[]
+  if cells[2] == "Critically endangered":
+    massive.append(cells)
+ print(len(massive))
+  user_language = input("Enter language: ")
+  list = []
+  if user_language == "":
+    print("No data entered!")
+  else:
+    while user_language != "":
+      list.append(user_language)
+ found_answer = False
+ for line in stroki:
+  if cells[0] == user_language:
+ print (cells[0];cells[1];cells[2])
+ found_answer = True
+ break
+ if not found_answer:
+  print("No information")
+  
+  
